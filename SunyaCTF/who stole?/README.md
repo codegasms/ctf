@@ -1,4 +1,4 @@
-# who stole?
+# who stole? [OSINT]
 
 ## Description
 
@@ -8,7 +8,7 @@ Don’t wanna badmouth but he’s a boomer, bro uses YouTube instead of Spotify 
 
 ## Solution
 
-`0ctf{mu51c41_fl4g}`
+`0CTF{mu51c41_fl4g}`
 
 ## But How?
 

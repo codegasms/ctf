@@ -6,7 +6,7 @@ In a house where whispers softly sound, Eleven hearts in mysteries are bound. Sy
 
 Seeker, in this puzzle's glow, What's on the ground floor, do you know? Amidst this mystery, one thing is clear, What's there now, let's bring it near.
 
-`Attachments`: ![buraui](./img/11.11.11.11.jpg)
+`Attachments`: ![burari](./img/11.11.11.11.jpg)
 
 ## Solution
 

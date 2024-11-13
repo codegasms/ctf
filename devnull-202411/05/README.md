@@ -18,7 +18,7 @@ e = 3
 ct = 4907569463567163286534620045778382788471193494073411855199998738500658001107047939686935892008454054704529623035112662897277333364306366391675908317839492077936418953775461
 ```
 
-the solution seemed obvious that it was due to a very small plaintext. In the equation `c = m^3 % n`, if `m` is very small then `m^3` remains smaller than `n` and thus solution would be just to take integer square root of `c`.
+the solution seemed obvious that it was due to a very small plaintext. In the equation `c = m^3 % n`, if `m` is very small then `m^3` remains smaller than `n` and thus solution would be just to take integer cude root of `c`.
 
 This solution is provided in the `main.py`. Running it prints the flag.
 

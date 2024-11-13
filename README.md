@@ -1,2 +1,3 @@
 # CTF
-Resources &amp; Writeups related to CTF
+
+Resources and Writeups related to CTFs.

@@ -2,8 +2,8 @@ roots = [69, 147, 220, 291, 368, 433, 556, 658, 707, 817, 914, 990, 1085, 1183, 
 flag = ""
 prev = 0
 
-for i, x in enumerate(roots):
-    flag += chr(x - prev)
-    prev = roots[i]
+for root in roots:
+    flag += chr(root - prev)
+    prev = root
 
 print(flag)

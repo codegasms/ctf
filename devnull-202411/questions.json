@@ -1,0 +1,294 @@
+{
+  "Note": "All the data that is submitted via POST method should be of type string.",
+  "questions": [
+    {
+      "title": "Buried Truths",
+      "description": [
+        "A peculiar file has buried_truths.xcf.",
+        "Rumor has it that something valuable is buried within, hidden carefully from plain sight.",
+        "Those who look deep enough, past the obvious, may discover what lies beneath.",
+        "",
+        "Unravel the mysteries concealed within.",
+        "Somewhere, among the layers and whispers of this file, a flag is waiting to be found.",
+        "Can you see what others cannot?",
+        "",
+        "buried_truths.xcf: https://enigma-iiits-940425c54ad6.herokuapp.com/file?team_id=e7be80d0ab78474aba4854b66cdac8cc&challenge_id=1",
+        ""
+      ],
+      "challenge_id": "1",
+      "points": 150,
+      "penalty": 30,
+      "hints": {
+        "count": 1,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 50
+          }
+        ]
+      }
+    },
+    {
+      "title": "CanYouRSA",
+      "description": [
+        "In this challenge, you’ve intercepted a highly sensitive encrypted message, but there’s a catch: it’s locked away with RSA encryption. Fortunately, you’ve managed to obtain three critical pieces of information—the values of n, e, and the ciphertext.",
+        "",
+        "Your mission is to crack the decryption key and unlock the message hidden within. Only those skilled in deciphering RSA's inner workings will be able to break through.",
+        "",
+        "n: 23690620655271165329693230765997410033604713853187305472268813793031152348107488119317901392104240429826482611449247251262846508667797483465355228800439339041030982259847598574606272955688345490638311164838117491821117626835340577511562130640807587611523935604871183668968359720411023759980144229161581597397061850707647104033348795132205561234674677139395868595692235525931999596382758921793937149945229459379437008216713404350896206374483356969246476531491049930769999387038678280465689487577291475554699094024761030833540509263174840007922218340417888061099317752496279552046029470370474619439450870110783844218281",
+        "e: 65537",
+        "ct: 3796818208467198249137317430018569243470117904079466590475290223985207094800368580541160422157161863240197526592057509480757813622181065723840461945837076431444525901228258369425436158948162330971354332922453285035944200199999186809145410343112407171306147652154834881169564127416377820843554947147024018985745843910728847066287056458452704200602941818236523947491864503152096477218518384906952834482457945498001209811149785987092836796490440853871399970002768197230447200689441260188081814161813720396511938702266166127228502528280909903993940820271827211598091984198521991694588620794926155807089896864498961259683",
+        "Flag format = ENIGMA{flag}",
+        "Flag format = numbers, characters and symbols without any spaces.",
+        "",
+        "Can you break the RSA and reveal the hidden flag?",
+        ""
+      ],
+      "challenge_id": "2",
+      "points": 150,
+      "penalty": 10,
+      "hints": {
+        "count": 2,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 0
+          },
+          {
+            "hint_no": 2,
+            "points": 50
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cipher Chase",
+      "description": [
+        "You’ve stumbled upon a peculiar pair of files: encryption.txt and encryption.py.",
+        "The encryption.txt file holds an encrypted flag, while encryption.py reveals the intricate algorithm used to cloak it.",
+        "To unlock the flag, you’ll need to understand the mind-bending encryption techniques hidden in the code and reverse-engineer the solution.",
+        "",
+        "zip file: https://enigma-iiits-940425c54ad6.herokuapp.com/file?team_id=e7be80d0ab78474aba4854b66cdac8cc&challenge_id=3",
+        ""
+      ],
+      "challenge_id": "3",
+      "points": 500,
+      "penalty": 50,
+      "hints": {
+        "count": 1,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 100
+          }
+        ]
+      }
+    },
+    {
+      "title": "EchoOfEnigma",
+      "description": [
+        "In the dark corners of a forgotten library, you uncover a mysterious book titled *The Echo of Enigma* Inside is a single encrypted clue:",
+        "\"Three Chandelier House Zero Dash Zero Found Dash Three Nails One Ground Mystery Awaits.\"",
+        "Decode the encrypted text to unveil the hidden flag! Rack your brains and shake your socks for it is a tricky one.",
+        "Flag format: ENIGMA{flag with numbers, dashes (-) and capital letters only}",
+        "Can you decipher the Echo?",
+        ""
+      ],
+      "challenge_id": "4",
+      "points": 100,
+      "penalty": 10,
+      "hints": {
+        "count": 1,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 50
+          }
+        ]
+      }
+    },
+    {
+      "title": "EnigmasOrigin",
+      "description": [
+        "Unveil the sacred cipher within RSA’s fortress, invoking an art that once shattered the secrets of Enigma. In this hallowed challenge, wisdom and precision will guide you to uncover the hidden truth. Approach with reverence, for this mystery is as dear to ENIGMA as the whispers of codes past.",
+        "",
+        "n = 103805634552377307340975059685101156977551733461056876355507089800229924640064014138267791875318149345634740763575673979991819014964446415505372251293888861031929442007781059010889724977253624216086442025183181157463661838779892334251775663309103173737456991687046799675461756638965663330282714035731741912263",
+        "e = 3",
+        "ct = 36807405291227829946722625904846752484641543510616104153586462283445090666591458305243924348909195407301698490761768562279763256605817231339966516342326012142249280697475863856344306765521107962078223560717666866408244063806543074014844830136774239011450556740550932043244293525749137470268637092169849694895",
+        ""
+      ],
+      "challenge_id": "5",
+      "points": 600,
+      "penalty": 100,
+      "hints": {
+        "count": 1,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 300
+          }
+        ]
+      }
+    },
+    {
+      "title": "FirstSteps",
+      "description": [
+        "Hash your team ID string using the SHA256 format and send the result via a POST request.",
+        "Flag format = ENIGMA{team_id_in_sha256}",
+        "Your team id: e7be80d0ab78474aba4854b66cdac8cc",
+        ""
+      ],
+      "challenge_id": "6",
+      "points": 50,
+      "penalty": 0,
+      "hints": {
+        "count": 1,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "title": "Git Challenge",
+      "description": [
+        "Old secrets often lie where changes are tracked; follow the timeline to unearth the flag.",
+        "",
+        "Zip file: https://enigma-iiits-940425c54ad6.herokuapp.com/file?team_id=e7be80d0ab78474aba4854b66cdac8cc&challenge_id=7",
+        ""
+      ],
+      "challenge_id": "7",
+      "points": 150,
+      "penalty": 50,
+      "hints": {
+        "count": 1,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 50
+          }
+        ]
+      }
+    },
+    {
+      "title": "MikuTrouble",
+      "description": [
+        "One morning, you boot up your Arch Linux setup, only to find it mysteriously taken over by none other than Miku! Her presence seems to have left a hidden message buried somewhere in your system. You’re determined to figure out what “Miku Miku” is trying to tell you, but the message is well concealed.",
+        "",
+        "Your challenge is to dig beneath the surface and retrieve Miku's hidden secret.",
+        "",
+        "Flag format: ENIGMA{flag} The flag has numbers, characters and symbols. No spaces.",
+        "",
+        "Can you decode Miku’s message and take back control?",
+        "",
+        "",
+        "file: https://enigma-iiits-940425c54ad6.herokuapp.com/file?team_id=e7be80d0ab78474aba4854b66cdac8cc&challenge_id=8",
+        ""
+      ],
+      "challenge_id": "8",
+      "points": 400,
+      "penalty": 100,
+      "hints": {
+        "count": 1,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 200
+          }
+        ]
+      }
+    },
+    {
+      "title": "NumberplateMadness",
+      "description": [
+        "Decipher the hidden meaning behind the image. What could it mean?",
+        "",
+        "Flag format: ENIGMA{flag} The flag has numbers, characters and symbols. No spaces.",
+        "",
+        "file: https://enigma-iiits-940425c54ad6.herokuapp.com/file?team_id=e7be80d0ab78474aba4854b66cdac8cc&challenge_id=9",
+        ""
+      ],
+      "challenge_id": "9",
+      "points": 500,
+      "penalty": 100,
+      "hints": {
+        "count": 1,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 100
+          }
+        ]
+      }
+    },
+    {
+      "title": "PolynomialTrolynomial",
+      "description": [
+        "My friend who is a maths major sent me an encrypted file but I'm having trouble deciphering what it means. Could you help me out?",
+        "",
+        "file: https://enigma-iiits-940425c54ad6.herokuapp.com/file?team_id=e7be80d0ab78474aba4854b66cdac8cc&challenge_id=10"
+      ],
+      "challenge_id": "10",
+      "points": 1000,
+      "penalty": 100,
+      "hints": {
+        "count": 1,
+        "hints_list": [
+          {
+            "hint_no": 1,
+            "points": 300
+          }
+        ]
+      }
+    },
+    {
+      "title": "TheInvisibleMen",
+      "description": [
+        "The zip file will contain multiple files, but your target is '﻿'.",
+        "The contents of this file are hidden in plain sight, yet disguised. Unveil its true form first, and only then will its secrets become clear.",
+        "",
+        "Once you’ve deciphered it, count every character in its revealed state—this will be your COUNT.",
+        "Look closely; somewhere within lies a hidden identifier in the format ENIGMA{RandomValue}.",
+        "",
+        "Piece it all together to form the flag as ENIGMA{RandomValue_COUNT}.",
+        "The answer lies beneath the surface—are you keen-eyed enough to unlock it?",
+        "",
+        "zip file: https://enigma-iiits-940425c54ad6.herokuapp.com/file?team_id=e7be80d0ab78474aba4854b66cdac8cc&challenge_id=11",
+        ""
+      ],
+      "file_name": "﻿",
+      "challenge_id": "11",
+      "points": 400,
+      "penalty": 50,
+      "hints": {
+        "count": 0,
+        "hints_list": []
+      }
+    },
+    {
+      "title": "ThisIsHowTheStoryGoes",
+      "description": [
+        "KSI just released a new song! It pains me to listen to even the first 10 seconds of this, but apparently there is a secret hidden message in this song.",
+        "",
+        "Since I don't wanna spend hours listening to this song to decipher it whilst making my ears burn, I shall assign this honor to you myn brave warrior!",
+        "",
+        "Help me decode the secret message and try not to die from the cringe overload.",
+        "",
+        "Flag format: ENIGMA{flag} The flag has numbers, characters and symbols. No spaces.",
+        "",
+        "file: https://enigma-iiits-940425c54ad6.herokuapp.com/file?team_id=e7be80d0ab78474aba4854b66cdac8cc&challenge_id=12",
+        ""
+      ],
+      "challenge_id": "12",
+      "points": 300,
+      "penalty": 100,
+      "hints": {
+        "count": 0,
+        "hints_list": []
+      }
+    }
+  ],
+  "total_questions": 12
+}
